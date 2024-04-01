@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ser.css">
+    <linkrel="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4ac8608c4e.js" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   
+    <title>Portfolio</title>
+</linkrel="stylesheet">
+<body>
+   <!-- Header -->
+    <header id="header">
+        <div class="container">
+
+            <nav>
+                <img src="img/Deproz-logo-text.png " alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="opnmenu()"></i>
+                
+                
+            </nav>
+             <!-- Swiper -->
+            <div class="con">
+             <!-- Slider main container -->
+             <div class="swiper">
+                    <!-- Additional required wrapper -->
+             <div class="swiper-wrapper">
+                <!-- Slides -->
+              <div class="swiper-slide"><img src="img/Picture.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Picture1.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Picture2.png" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+            
+                                                    <!-- If we need navigation buttons -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+ 
+        </div>
+    </header>
+    
+     <!-- services start -->
+     <div class="container">
+        <h1 class="sub-title">our services</h1>
+
+        <div class="services-list">
+
+            <div class="box">
+                <img src="img/sql.png" alt="">
+                <h3>SQL</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="img/python.png" alt="">
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/excel.png" alt="">
+                <h3>Excel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/icon-6.png" alt="">
+                <h3>Data Visualization</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="img/flutter.png" alt="">
+                <h3>Flutter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/dart.png" alt="">
+                <h3>Dart</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="img/icon-1.png" alt="">
+                <h3>HTML 5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="html.html" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="img/icon-2.png" alt="">
+                <h3>CSS 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="Html.html" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="img/icon-3.png" alt="">
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+        </div>
+        </div>
+    <!-- services end -->
+        <!-- footer -->
+    <footer id="main-footer">
+      <div class="container">
+        
+            <p>Copyright &copy; 2022 | Deproz</p>
+      </div>
+    </footer>
+    </div>
+    <!-- MenuBar Script -->
+    <script>
+        var sid = document.getElementById("sidemenu");
+        function opnmenu(params) {
+            sid.style.right ="0"
+        }
+        function closemenu(params) {
+            sid.style.right ="-200px"
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+  // If we need pagination
+         pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+
+  // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+        },
+
+  // And if we need scrollbar
+       
+      });
+
+    </script>
+</body>
+</html>

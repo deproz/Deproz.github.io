@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4ac8608c4e.js" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
+    </script>
+    <title>Portfolio</title>
+</head>
+<body>
+   <!-- Header -->
+    <header id="header">
+        <div class="container">
+
+            <nav>
+                <img src="img/Deproz-logo-text.png " alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="opnmenu()"></i>
+                
+                
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Olamibode</span> <br>from Nigeria.</h1>
+            </div>
+ 
+        </div>
+    </header>
+                                                 <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/olami.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated and results-driven professional with a diverse background in data analysis, insurance, business administration, supply chain management, web design and software development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                                                                 <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Data Analysis</span><br>I analyze and interpret data to gain insights</li>
+                            <li><span>Android Development</span><br>I design and build mobile applications for Android devices </li>
+                            <li><span>Web Development</span><br>I design and create websites using coding languages </li>
+                        </ul>
+                    </div>
+                                                                 <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Currently.</span><br>Instructor at Datalytics ltd.</li>
+                            <li><span>2019-2024</span><br>Data Analysis team lead at  Flourish ltd.</li>
+                            <li><span>2021-2023.</span><br>App Development at Deheartwarmer Productions. </li>
+                        </ul>
+                    </div>
+                                                                 <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            
+                            <li><span>2008</span><br>BSc. Lagos State University</li>
+                            <li><span>2019</span><br>Diploma Ment App Tech </li>
+                            <li><span>2023</span><br>Diploma. Alison </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                                                                 <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analysis</h2>
+                    <p>I analyze and interpret data to gain insights and make informed business decisions.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>I design and build mobile applications for Android devices using programming language like dart.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I design and create websites using coding languages to ensure functionality and user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+                                                    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+    </section>    
+                                                 <!-- Contact -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ddeproz@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>09060463535</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/CV- OMOWOLE OLAJIDE OLABODE.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    
+                        <input id="nam" type="text" name="Name" placeholder="Type your Name"  required>
+                        <input  id="ema" type="email" name="Email" placeholder="Type your Email">
+                        <textarea  id="mess" type="Message" name="Message" placeholder="Type your Message" rows="6"></textarea>
+                        <button id="submit" type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+                                                 <!-- footer -->
+    <footer id="main-footer">
+    
+        <p>Copyright &copy; 2022 | DeHeartwartWarmer <i class="fa-solid fa-heart"></i> Production</p>
+  
+    </footer>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");   
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");   
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+<!-- MenuBar Script -->
+    <script>
+        var sid = document.getElementById("sidemenu");
+        function opnmenu(params) {
+            sid.style.right ="0"
+        }
+        function closemenu(params) {
+            sid.style.right ="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx7kzh7H5eIq0mUGKBXSr1ft_7lFcBl5O4l8dgEyaAHuZOl4RoqASYJr6VzgvZNQ88ocQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://smtpjs.com/v3/smtp.js">
+      </script>
+      <script src="script.js"></script>
+</body>
+</div>
